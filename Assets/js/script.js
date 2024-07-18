@@ -20,6 +20,7 @@ const collectEmployees = function () {
     newEmployees.push(newEmployee);
     isAddingEmployees = confirm('Do you want to add another employee?');
 }
+// This returns the newEmployees value and stops the function
 return newEmployees
 }
 
