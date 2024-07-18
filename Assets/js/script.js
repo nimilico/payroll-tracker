@@ -15,7 +15,12 @@ const collectEmployees = function () {
       lastName: lastName,
       salary: salary
     }
-
+    console.log(newEmployee);
+    // add the newly input employee data into the array
+    newEmployees.push(newEmployee);
+    isAddingEmployees = confirm('Do you want to add another employee?');
+}
+return newEmployees
 }
 
 // Display the average salary
