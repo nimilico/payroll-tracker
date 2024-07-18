@@ -11,9 +11,13 @@ const collectEmployees = function () {
     const lastName = prompt('Please enter employee\'s last name');
     const salary = prompt('Please enter employee\'s salary')
     const newEmployee = {
-      firstName: firstName,
-      lastName: lastName,
-      salary: salary
+      firstName,
+      lastName,
+      salary
+// The above 3 lines shortcut the next 3 lines:
+      // firstName: firstName,
+      // lastName: lastName,
+      // salary: salary
     }
     console.log(newEmployee);
     // add the newly input employee data into the array
